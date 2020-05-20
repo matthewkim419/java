@@ -35,5 +35,36 @@
     }
     document.write("4<br>");
 </script>
+
+
+<div button>
+    <input type="button"  value="night" onclick="
+    var target = document.querySelector('body')
+    if ( this.value === 'night') {
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+    } else  { 
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+    }
+    ">
+</div>
+
+<div button 2>
+    <input type="button"  value="night" onclick="
+    var target = document.querySelector('body')
+    if ( this.value === 'night') {
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = 'day';
+    } else  { 
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = 'night';
+    }
+    ">
+</div>
 </body>
 </html>
